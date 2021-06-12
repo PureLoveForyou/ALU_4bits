@@ -1,0 +1,61 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Apr 29 23:26:38 2021
+# Process ID: 268
+# Current directory: C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab2/ALU_4bits
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9112 C:\Documents\Sophomore2\Digital_logic_and_digital_system\DLDS\docs\Experiments\Lab2\ALU_4bits\ALU_4bits.xpr
+# Log file: C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab2/ALU_4bits/vivado.log
+# Journal file: C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab2/ALU_4bits\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab2/ALU_4bits/ALU_4bits.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab2/ALU_4bits'
+INFO: [Project 1-313] Project file moved from 'D:/Work/vivado_project/DLC/ALU_4bits' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [Project 1-230] Project 'ALU_4bits.xpr' upgraded for this version of Vivado.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Softwares/Vivado2018/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 751.082 ; gain = 91.379
+update_compile_order -fileset sources_1
+file mkdir C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab2/ALU_4bits/ALU_4bits.srcs/sources_1/new
+close [ open C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab2/ALU_4bits/ALU_4bits.srcs/sources_1/new/fulladder.sv w ]
+add_files C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab2/ALU_4bits/ALU_4bits.srcs/sources_1/new/fulladder.sv
+update_compile_order -fileset sources_1
+close [ open C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab2/ALU_4bits/ALU_4bits.srcs/sources_1/new/rca.sv w ]
+add_files C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab2/ALU_4bits/ALU_4bits.srcs/sources_1/new/rca.sv
+update_compile_order -fileset sources_1
+close [ open C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab2/ALU_4bits/ALU_4bits.srcs/sources_1/new/alu.sv w ]
+add_files C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab2/ALU_4bits/ALU_4bits.srcs/sources_1/new/alu.sv
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_ip_catalog
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab2/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/ALU_4bits.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab2/ALU_4bits/ALU_4bits.srcs/sources_1/new/fulladder.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab2/ALU_4bits/ALU_4bits.srcs/sources_1/new/alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab2/ALU_4bits/ALU_4bits.srcs/sources_1/new/rca.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab2/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/ALU_4bits.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab2/ALU_4bits/ALU_4bits.srcs/sources_1/new/fulladder.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab2/ALU_4bits/ALU_4bits.srcs/sources_1/new/alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab2/ALU_4bits/ALU_4bits.srcs/sources_1/new/rca.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab2/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/ALU_4bits.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab2/ALU_4bits/ALU_4bits.srcs/sources_1/new/fulladder.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab2/ALU_4bits/ALU_4bits.srcs/sources_1/new/alu.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab2/ALU_4bits/ALU_4bits.srcs/sources_1/new/rca.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Thu Apr 29 23:34:57 2021] Launched synth_1...
+Run output will be captured here: C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab2/ALU_4bits/ALU_4bits.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Thu Apr 29 23:36:01 2021] Launched impl_1...
+Run output will be captured here: C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab2/ALU_4bits/ALU_4bits.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Apr 29 23:37:26 2021] Launched impl_1...
+Run output will be captured here: C:/Documents/Sophomore2/Digital_logic_and_digital_system/DLDS/docs/Experiments/Lab2/ALU_4bits/ALU_4bits.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 29 23:43:11 2021...
